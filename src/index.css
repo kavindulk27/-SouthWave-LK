@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ocean: #0284c7;
+  --color-ocean-light: #38bdf8;
+  --color-ocean-dark: #0369a1;
+  --color-sand: #f4eee0;
+  --color-sand-dark: #e5dca5;
+  --font-sans: "Inter", "Poppins", sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: var(--font-sans);
+    background-color: #ffffff;
+    color: #1f2937;
+  }
+}
